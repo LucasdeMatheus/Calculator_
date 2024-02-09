@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <Script src="main.js"></Script>
+</head>
+<body>
+    <div id="container">
+    <div id="visor"></div><br>
+    <button type="button" id="number" onclick="numberAdd(9)">9</button>
+    <button type="button" id="number" onclick="numberAdd(8)">8</button>
+    <button type="button" id="number" onclick="numberAdd(7)">7</button>
+    <button type="button" id="operators" onclick="operatorAdd('/')">/</button><br>
+    <button type="button" id="number" onclick="numberAdd(6)">6</button>
+    <button type="button" id="number" onclick="numberAdd(5)">5</button>
+    <button type="button" id="number" onclick="numberAdd(4)">4</button>
+    <button type="button" id="operators" onclick="operatorAdd('*')">x</button><br>
+    <button type="button" id="number" onclick="numberAdd(3)">3</button>
+    <button type="button" id="number" onclick="numberAdd(2)">2</button>
+    <button type="button" id="number" onclick="numberAdd(1)">1</button>
+    <button type="button" id="operators" onclick="operatorAdd('-')">-</button><br>
+    <button type="button" id="functions">-</button> 
+    <button type="button" id="number" onclick="numberAdd(0)">0</button>
+    <button type="button" id="decimals" onclick="decimalsAdd()">.</button>
+    <button type="button" id="operators" onclick="operatorAdd('+')">+</button><br>
+    <button type="button" id="equal" onclick="equal(a, b, operatorY)">=</button>
+    <button type="button" id="delete" onclick="deleteNumber()"><img src="delete_icon-icons.com_72346.png" alt="delete.png"></button>
+    </div>
+</body>
+</html>

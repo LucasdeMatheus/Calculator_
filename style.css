@@ -1,0 +1,68 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spinbutton {
+-webkit-appearance: none;
+margin: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    padding: 0%;
+    margin: 0%;
+}
+#container{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button, input{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+    text-align: center;
+}
+#number, #functions, #operators, #equal, #decimals{
+    font-size: 100%;
+}
+#operators, #decimals{
+    background-color: #6C9E90;
+    font-size: 20px;
+    border-radius:5px;
+}
+#number{
+    background-color: #3D5A52;
+    color: aliceblue;
+    transition: 0.4s;
+    font-size: 20px;
+    border-radius:5px;
+}
+#functions{
+    background-color: #A0EAD5;
+    transition: 0.4s;
+    font-size: 20px;
+    border-radius:5px;
+}
+#equal{
+    background-color:#5A8579;
+    width: 132px;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-top: 3px;
+    border-radius:5px;
+}
+#visor{
+    position: fixed;
+    bottom: 168px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    width: 150px;
+}
+#delete{
+    background-color: #5A8579;
+    position: fixed;
+    bottom: 168px;
+}
+img{
+    width: 20px;
+    position: relative;
+    right: 3px;
+}
